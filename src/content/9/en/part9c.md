@@ -708,7 +708,7 @@ If we were now to return all of the diary entries from the *getNonSensitiveEntri
 Because TypeScript doesn't modify the actual data but only its type, we need to exclude the fields ourselves:
 
 ```js
-import diaries from '../../data/entries.ts'
+import diaries from '../../data/entries'
 
 import { NonSensitiveDiaryEntry, DiaryEntry } from '../types'
 
